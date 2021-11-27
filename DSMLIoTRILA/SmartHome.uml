@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSMLIoTRILA="http:///schemas/DSMLIoTRILA/_ai6z0E-gEeyRY6c7t-TqYA/37" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSMLIoTRILA/_ai6z0E-gEeyRY6c7t-TqYA/37 DSMLIoTRILA.profile.uml#_ai6z0U-gEeyRY6c7t-TqYA">
+  <uml:Model xmi:id="_4087UElzEey40qAMbTWBXw" name="SmartHome">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_41nCoElzEey40qAMbTWBXw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DC4u8El0Eey40qAMbTWBXw" name="Usuario">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VtqYsEpIEeyTTKWT2c77UQ" name="taggeladeria" type="_TBW_8EpHEeyTTKWT2c77UQ" association="_VtmHQEpIEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hMoWYUpIEeyTTKWT2c77UQ" name="celular" type="_DulZcEpHEeyTTKWT2c77UQ" association="_hMnIQEpIEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_m7bFMkpIEeyTTKWT2c77UQ" name="tagtv" type="_WPP4QEpHEeyTTKWT2c77UQ" association="_m7aeIEpIEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AjpHcEpHEeyTTKWT2c77UQ" name="Geladeria">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Eq4XskpJEeyTTKWT2c77UQ" name="sensorgeladeira" type="_ZNB4AEpHEeyTTKWT2c77UQ" association="_Eq3JkEpJEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KgCNMEpJEeyTTKWT2c77UQ" name="atuadorgeladeira" type="_cvD0UEpHEeyTTKWT2c77UQ" association="_KgA_EEpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DulZcEpHEeyTTKWT2c77UQ" name="Celular">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GgcVskpKEeyTTKWT2c77UQ" name="sensorgeladeira" type="_ZNB4AEpHEeyTTKWT2c77UQ" association="_GgbHkEpKEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_S_KgMUpKEeyTTKWT2c77UQ" name="atuadorgeladeira" type="_cvD0UEpHEeyTTKWT2c77UQ" association="_S_JSEEpKEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XYc0okpKEeyTTKWT2c77UQ" name="atuadortv" type="_ghnf8EpHEeyTTKWT2c77UQ" association="_XYcNkEpKEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Kv-2wUuTEeyME9QYduEkIA" name="repositorio" type="_NvYwAEpHEeyTTKWT2c77UQ" association="_Kv5-QEuTEeyME9QYduEkIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JmBt8EpHEeyTTKWT2c77UQ" name="TV">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WaDIIUpJEeyTTKWT2c77UQ" name="atuadortv" type="_ghnf8EpHEeyTTKWT2c77UQ" association="_WaB6AEpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NvYwAEpHEeyTTKWT2c77UQ" name="Repositorio"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TBW_8EpHEeyTTKWT2c77UQ" name="tagGeladeria">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jtwZ4kpJEeyTTKWT2c77UQ" name="atuadorgeladeira" type="_cvD0UEpHEeyTTKWT2c77UQ" subsettedProperty="_jtwZ4kpJEeyTTKWT2c77UQ" association="_jtvy0EpJEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_etcDskuTEeyME9QYduEkIA" name="repositorio" type="_NvYwAEpHEeyTTKWT2c77UQ" association="_etbcoEuTEeyME9QYduEkIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WPP4QEpHEeyTTKWT2c77UQ" name="tagTV">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eWuDwUpJEeyTTKWT2c77UQ" name="atuadortv" type="_ghnf8EpHEeyTTKWT2c77UQ" association="_eWsOkEpJEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mIXkMEuTEeyME9QYduEkIA" name="repositorio" type="_NvYwAEpHEeyTTKWT2c77UQ" association="_mIWWEEuTEeyME9QYduEkIA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZNB4AEpHEeyTTKWT2c77UQ" name="sensorGeladeira"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cvD0UEpHEeyTTKWT2c77UQ" name="atuadorGeladeira"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ghnf8EpHEeyTTKWT2c77UQ" name="atuadorTV"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_VtmHQEpIEeyTTKWT2c77UQ" name="usa" memberEnd="_VtqYsEpIEeyTTKWT2c77UQ _Vtrm0EpIEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VtpKkEpIEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VtpKkUpIEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Vtrm0EpIEeyTTKWT2c77UQ" name="usuario" type="_DC4u8El0Eey40qAMbTWBXw" association="_VtmHQEpIEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hMnIQEpIEeyTTKWT2c77UQ" name="usa" memberEnd="_hMoWYUpIEeyTTKWT2c77UQ _hMvrIEpIEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hMnvUEpIEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hMoWYEpIEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_hMvrIEpIEeyTTKWT2c77UQ" name="usuario" type="_DC4u8El0Eey40qAMbTWBXw" association="_hMnIQEpIEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_m7aeIEpIEeyTTKWT2c77UQ" name="usa" memberEnd="_m7bFMkpIEeyTTKWT2c77UQ _m7cTUUpIEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m7bFMEpIEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m7bFMUpIEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_m7cTUUpIEeyTTKWT2c77UQ" name="usuario" type="_DC4u8El0Eey40qAMbTWBXw" association="_m7aeIEpIEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Eq3JkEpJEeyTTKWT2c77UQ" name="possui" memberEnd="_Eq4XskpJEeyTTKWT2c77UQ _Eq4-wkpJEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Eq4XsEpJEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Eq4XsUpJEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Eq4-wkpJEeyTTKWT2c77UQ" name="geladeria" type="_AjpHcEpHEeyTTKWT2c77UQ" association="_Eq3JkEpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KgA_EEpJEeyTTKWT2c77UQ" name="possui" memberEnd="_KgCNMEpJEeyTTKWT2c77UQ _KgCNM0pJEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KgBmIEpJEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KgBmIUpJEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_KgCNM0pJEeyTTKWT2c77UQ" name="geladeria" type="_AjpHcEpHEeyTTKWT2c77UQ" association="_KgA_EEpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WaB6AEpJEeyTTKWT2c77UQ" name="possui" memberEnd="_WaDIIUpJEeyTTKWT2c77UQ _WaDvMkpJEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaChEEpJEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaDIIEpJEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_WaDvMkpJEeyTTKWT2c77UQ" name="tv" type="_JmBt8EpHEeyTTKWT2c77UQ" association="_WaB6AEpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eWsOkEpJEeyTTKWT2c77UQ" name="atua" memberEnd="_eWuDwUpJEeyTTKWT2c77UQ _eWuq0UpJEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eWtcsEpJEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eWuDwEpJEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_eWuq0UpJEeyTTKWT2c77UQ" name="tagtv" type="_WPP4QEpHEeyTTKWT2c77UQ" association="_eWsOkEpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jtvy0EpJEeyTTKWT2c77UQ" name="atua" memberEnd="_jtwZ4kpJEeyTTKWT2c77UQ _jtxA8kpJEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jtwZ4EpJEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jtwZ4UpJEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_jtxA8kpJEeyTTKWT2c77UQ" name="taggeladeria" type="_TBW_8EpHEeyTTKWT2c77UQ" association="_jtvy0EpJEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GgbHkEpKEeyTTKWT2c77UQ" name="le" memberEnd="_GgcVskpKEeyTTKWT2c77UQ _Ggc8wkpKEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GgcVsEpKEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgcVsUpKEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Ggc8wkpKEeyTTKWT2c77UQ" name="celular" type="_DulZcEpHEeyTTKWT2c77UQ" association="_GgbHkEpKEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_S_JSEEpKEeyTTKWT2c77UQ" name="atua" memberEnd="_S_KgMUpKEeyTTKWT2c77UQ _S_KgNEpKEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S_J5IEpKEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S_KgMEpKEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_S_KgNEpKEeyTTKWT2c77UQ" name="celular" type="_DulZcEpHEeyTTKWT2c77UQ" association="_S_JSEEpKEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XYcNkEpKEeyTTKWT2c77UQ" name="atua" memberEnd="_XYc0okpKEeyTTKWT2c77UQ _XYdbskpKEeyTTKWT2c77UQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XYc0oEpKEeyTTKWT2c77UQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XYc0oUpKEeyTTKWT2c77UQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_XYdbskpKEeyTTKWT2c77UQ" name="celular" type="_DulZcEpHEeyTTKWT2c77UQ" association="_XYcNkEpKEeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_FafS4EpNEeyTTKWT2c77UQ" name="Interaction24">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OPsZAEpNEeyTTKWT2c77UQ" name="" type="_DC4u8El0Eey40qAMbTWBXw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RdyssEpNEeyTTKWT2c77UQ" name="" type="_DulZcEpHEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hSwk0EpOEeyTTKWT2c77UQ" name="" type="_TBW_8EpHEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_h03MUEpOEeyTTKWT2c77UQ" name="" type="_WPP4QEpHEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Eyw5oEpPEeyTTKWT2c77UQ" name="" type="_cvD0UEpHEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rsjYQEpQEeyTTKWT2c77UQ" name="" type="_NvYwAEpHEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_s7ScQEpQEeyTTKWT2c77UQ" name="" type="_NvYwAEpHEeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_OPrx8EpNEeyTTKWT2c77UQ" represents="_OPsZAEpNEeyTTKWT2c77UQ" coveredBy="_huAy4EpNEeyTTKWT2c77UQ _6iGXkEpNEeyTTKWT2c77UQ __HJaoEpOEeyTTKWT2c77UQ _BFcTUEpPEeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_RdyFoEpNEeyTTKWT2c77UQ" name="" represents="_RdyssEpNEeyTTKWT2c77UQ" coveredBy="_huBZ8EpNEeyTTKWT2c77UQ _GLr0YEpPEeyTTKWT2c77UQ _BLBE8EpREeyTTKWT2c77UQ _6iGXkUpNEeyTTKWT2c77UQ _xW46UEpPEeyTTKWT2c77UQ _ECfBUEpREeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_hSvWsEpOEeyTTKWT2c77UQ" name="" represents="_hSwk0EpOEeyTTKWT2c77UQ" coveredBy="__HJaoUpOEeyTTKWT2c77UQ _vp83YEpPEeyTTKWT2c77UQ _GgZ1QEpREeyTTKWT2c77UQ _BFc6YEpPEeyTTKWT2c77UQ _zpMUIEpPEeyTTKWT2c77UQ _IAFfUEpREeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_EywSkEpPEeyTTKWT2c77UQ" name="" represents="_Eyw5oEpPEeyTTKWT2c77UQ" coveredBy="_GLsbcEpPEeyTTKWT2c77UQ _xW5hYEpPEeyTTKWT2c77UQ _vp9ecEpPEeyTTKWT2c77UQ _zpMUIUpPEeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_rsixMEpQEeyTTKWT2c77UQ" name="" represents="_rsjYQEpQEeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_s7R1MEpQEeyTTKWT2c77UQ" name="" represents="_s7ScQEpQEeyTTKWT2c77UQ" coveredBy="_BLBsAEpREeyTTKWT2c77UQ _ECfBUUpREeyTTKWT2c77UQ _GgZ1QUpREeyTTKWT2c77UQ _IAFfUUpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_huAy4EpNEeyTTKWT2c77UQ" name="Message5SendEvent" covered="_OPrx8EpNEeyTTKWT2c77UQ" message="_ht_kwEpNEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_huBZ8EpNEeyTTKWT2c77UQ" name="Message5ReceiveEvent" covered="_RdyFoEpNEeyTTKWT2c77UQ" message="_ht_kwEpNEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GLr0YEpPEeyTTKWT2c77UQ" name="Message22SendEvent" covered="_RdyFoEpNEeyTTKWT2c77UQ" message="_GLrNUEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GLsbcEpPEeyTTKWT2c77UQ" name="Message22ReceiveEvent" covered="_EywSkEpPEeyTTKWT2c77UQ" message="_GLrNUEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BLBE8EpREeyTTKWT2c77UQ" name="Message38SendEvent" covered="_RdyFoEpNEeyTTKWT2c77UQ" message="_BK_20EpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BLBsAEpREeyTTKWT2c77UQ" name="Message38ReceiveEvent" covered="_s7R1MEpQEeyTTKWT2c77UQ" message="_BK_20EpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6iGXkEpNEeyTTKWT2c77UQ" name="Message8SendEvent" covered="_OPrx8EpNEeyTTKWT2c77UQ" message="_6iFJcEpNEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6iGXkUpNEeyTTKWT2c77UQ" name="Message8ReceiveEvent" covered="_RdyFoEpNEeyTTKWT2c77UQ" message="_6iFJcEpNEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xW46UEpPEeyTTKWT2c77UQ" name="Message28SendEvent" covered="_RdyFoEpNEeyTTKWT2c77UQ" message="_xW4TQEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xW5hYEpPEeyTTKWT2c77UQ" name="Message28ReceiveEvent" covered="_EywSkEpPEeyTTKWT2c77UQ" message="_xW4TQEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ECfBUEpREeyTTKWT2c77UQ" name="Message41SendEvent" covered="_RdyFoEpNEeyTTKWT2c77UQ" message="_ECdzMEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ECfBUUpREeyTTKWT2c77UQ" name="Message41ReceiveEvent" covered="_s7R1MEpQEeyTTKWT2c77UQ" message="_ECdzMEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__HJaoEpOEeyTTKWT2c77UQ" name="Message14SendEvent" covered="_OPrx8EpNEeyTTKWT2c77UQ" message="__HIMgEpOEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__HJaoUpOEeyTTKWT2c77UQ" name="Message14ReceiveEvent" covered="_hSvWsEpOEeyTTKWT2c77UQ" message="__HIMgEpOEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vp83YEpPEeyTTKWT2c77UQ" name="Message25SendEvent" covered="_hSvWsEpOEeyTTKWT2c77UQ" message="_vp7pQEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vp9ecEpPEeyTTKWT2c77UQ" name="Message25ReceiveEvent" covered="_EywSkEpPEeyTTKWT2c77UQ" message="_vp7pQEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GgZ1QEpREeyTTKWT2c77UQ" name="Message44SendEvent" covered="_hSvWsEpOEeyTTKWT2c77UQ" message="_GgZOMEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GgZ1QUpREeyTTKWT2c77UQ" name="Message44ReceiveEvent" covered="_s7R1MEpQEeyTTKWT2c77UQ" message="_GgZOMEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BFcTUEpPEeyTTKWT2c77UQ" name="Message17SendEvent" covered="_OPrx8EpNEeyTTKWT2c77UQ" message="_BFbsQEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BFc6YEpPEeyTTKWT2c77UQ" name="Message17ReceiveEvent" covered="_hSvWsEpOEeyTTKWT2c77UQ" message="_BFbsQEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zpMUIEpPEeyTTKWT2c77UQ" name="Message31SendEvent" covered="_hSvWsEpOEeyTTKWT2c77UQ" message="_zpLtEEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zpMUIUpPEeyTTKWT2c77UQ" name="Message31ReceiveEvent" covered="_EywSkEpPEeyTTKWT2c77UQ" message="_zpLtEEpPEeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IAFfUEpREeyTTKWT2c77UQ" name="Message47SendEvent" covered="_hSvWsEpOEeyTTKWT2c77UQ" message="_IAERMEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IAFfUUpREeyTTKWT2c77UQ" name="Message47ReceiveEvent" covered="_s7R1MEpQEeyTTKWT2c77UQ" message="_IAERMEpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_ht_kwEpNEeyTTKWT2c77UQ" name="ligarGeladeira" messageSort="asynchCall" receiveEvent="_huBZ8EpNEeyTTKWT2c77UQ" sendEvent="_huAy4EpNEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_6iFJcEpNEeyTTKWT2c77UQ" name="desligarGeladeira" messageSort="asynchCall" receiveEvent="_6iGXkUpNEeyTTKWT2c77UQ" sendEvent="_6iGXkEpNEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="__HIMgEpOEeyTTKWT2c77UQ" name="ligarGeladeira" messageSort="asynchCall" receiveEvent="__HJaoUpOEeyTTKWT2c77UQ" sendEvent="__HJaoEpOEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_BFbsQEpPEeyTTKWT2c77UQ" name="desligarGeladeira" messageSort="asynchCall" receiveEvent="_BFc6YEpPEeyTTKWT2c77UQ" sendEvent="_BFcTUEpPEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_GLrNUEpPEeyTTKWT2c77UQ" name="ligarGeladeira" messageSort="asynchCall" receiveEvent="_GLsbcEpPEeyTTKWT2c77UQ" sendEvent="_GLr0YEpPEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_vp7pQEpPEeyTTKWT2c77UQ" name="ligarGeladeira" messageSort="asynchCall" receiveEvent="_vp9ecEpPEeyTTKWT2c77UQ" sendEvent="_vp83YEpPEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_xW4TQEpPEeyTTKWT2c77UQ" name="desligarGeladeira" messageSort="asynchCall" receiveEvent="_xW5hYEpPEeyTTKWT2c77UQ" sendEvent="_xW46UEpPEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_zpLtEEpPEeyTTKWT2c77UQ" name="desligarGeladeira" messageSort="asynchCall" receiveEvent="_zpMUIUpPEeyTTKWT2c77UQ" sendEvent="_zpMUIEpPEeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_BK_20EpREeyTTKWT2c77UQ" name="trocaStatusGeladeira" messageSort="asynchCall" receiveEvent="_BLBsAEpREeyTTKWT2c77UQ" sendEvent="_BLBE8EpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_ECdzMEpREeyTTKWT2c77UQ" name="trocaStatusGeladeira" messageSort="asynchCall" receiveEvent="_ECfBUUpREeyTTKWT2c77UQ" sendEvent="_ECfBUEpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_GgZOMEpREeyTTKWT2c77UQ" name="trocaStatusGeladeira" messageSort="asynchCall" receiveEvent="_GgZ1QUpREeyTTKWT2c77UQ" sendEvent="_GgZ1QEpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_IAERMEpREeyTTKWT2c77UQ" name="trocaStatusGeladeira" messageSort="asynchCall" receiveEvent="_IAFfUUpREeyTTKWT2c77UQ" sendEvent="_IAFfUEpREeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_cmh0UEpQEeyTTKWT2c77UQ" name="Interaction25">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nmrIAEpQEeyTTKWT2c77UQ" name="" type="_DC4u8El0Eey40qAMbTWBXw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NQJDsEpREeyTTKWT2c77UQ" name="" type="_DulZcEpHEeyTTKWT2c77UQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Qz4QMEpREeyTTKWT2c77UQ" name="" type="_ZNB4AEpHEeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_nmp54EpQEeyTTKWT2c77UQ" represents="_nmrIAEpQEeyTTKWT2c77UQ" coveredBy="_bAkGoEpREeyTTKWT2c77UQ _bA8hIUpREeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_NQH1kEpREeyTTKWT2c77UQ" name="" represents="_NQJDsEpREeyTTKWT2c77UQ" coveredBy="_bAkGoUpREeyTTKWT2c77UQ _jlxB4EpREeyTTKWT2c77UQ _jmHAIUpREeyTTKWT2c77UQ _bA8hIEpREeyTTKWT2c77UQ _bA5d0EpREeyTTKWT2c77UQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_Qz3pIEpREeyTTKWT2c77UQ" name="" represents="_Qz4QMEpREeyTTKWT2c77UQ" coveredBy="_jlxB4UpREeyTTKWT2c77UQ _jmHAIEpREeyTTKWT2c77UQ _jmD80EpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bAkGoEpREeyTTKWT2c77UQ" name="Message7SendEvent" covered="_nmp54EpQEeyTTKWT2c77UQ" message="_bAhqYEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bAkGoUpREeyTTKWT2c77UQ" name="Message7ReceiveEvent" covered="_NQH1kEpREeyTTKWT2c77UQ" message="_bAhqYEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_bA5d0EpREeyTTKWT2c77UQ" name="BehaviorExecutionSpecification10" covered="_NQH1kEpREeyTTKWT2c77UQ" finish="_bA8hIEpREeyTTKWT2c77UQ" start="_bAkGoUpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jlxB4EpREeyTTKWT2c77UQ" name="Message14SendEvent" covered="_NQH1kEpREeyTTKWT2c77UQ" message="_jlvzwEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jlxB4UpREeyTTKWT2c77UQ" name="Message14ReceiveEvent" covered="_Qz3pIEpREeyTTKWT2c77UQ" message="_jlvzwEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jmD80EpREeyTTKWT2c77UQ" name="BehaviorExecutionSpecification17" covered="_Qz3pIEpREeyTTKWT2c77UQ" finish="_jmHAIEpREeyTTKWT2c77UQ" start="_jlxB4UpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jmHAIEpREeyTTKWT2c77UQ" name="Message19SendEvent" covered="_Qz3pIEpREeyTTKWT2c77UQ" message="_jmGZEEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jmHAIUpREeyTTKWT2c77UQ" name="Message19ReceiveEvent" covered="_NQH1kEpREeyTTKWT2c77UQ" message="_jmGZEEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bA8hIEpREeyTTKWT2c77UQ" name="Message12SendEvent" covered="_NQH1kEpREeyTTKWT2c77UQ" message="_bA76EEpREeyTTKWT2c77UQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bA8hIUpREeyTTKWT2c77UQ" name="Message12ReceiveEvent" covered="_nmp54EpQEeyTTKWT2c77UQ" message="_bA76EEpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_bAhqYEpREeyTTKWT2c77UQ" name="exibirTemperatura" receiveEvent="_bAkGoUpREeyTTKWT2c77UQ" sendEvent="_bAkGoEpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_bA76EEpREeyTTKWT2c77UQ" name="temperatura" messageSort="reply" receiveEvent="_bA8hIUpREeyTTKWT2c77UQ" sendEvent="_bA8hIEpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_jlvzwEpREeyTTKWT2c77UQ" name="informarTemperatura" receiveEvent="_jlxB4UpREeyTTKWT2c77UQ" sendEvent="_jlxB4EpREeyTTKWT2c77UQ"/>
+      <message xmi:type="uml:Message" xmi:id="_jmGZEEpREeyTTKWT2c77UQ" name="temperatura" messageSort="reply" receiveEvent="_jmHAIUpREeyTTKWT2c77UQ" sendEvent="_jmHAIEpREeyTTKWT2c77UQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Kv5-QEuTEeyME9QYduEkIA" name="comunica" memberEnd="_Kv-2wUuTEeyME9QYduEkIA _KwEWUEuTEeyME9QYduEkIA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Kv-PsEuTEeyME9QYduEkIA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kv-2wEuTEeyME9QYduEkIA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_KwEWUEuTEeyME9QYduEkIA" name="celular" type="_DulZcEpHEeyTTKWT2c77UQ" association="_Kv5-QEuTEeyME9QYduEkIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c7dvwEuTEeyME9QYduEkIA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_etbcoEuTEeyME9QYduEkIA" name="comunica" memberEnd="_etcDskuTEeyME9QYduEkIA _etj_gEuTEeyME9QYduEkIA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_etcDsEuTEeyME9QYduEkIA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_etcDsUuTEeyME9QYduEkIA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_etj_gEuTEeyME9QYduEkIA" name="taggeladeria" type="_TBW_8EpHEeyTTKWT2c77UQ" association="_etbcoEuTEeyME9QYduEkIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kn7FIEuTEeyME9QYduEkIA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mIWWEEuTEeyME9QYduEkIA" name="comunica" memberEnd="_mIXkMEuTEeyME9QYduEkIA _mIXkM0uTEeyME9QYduEkIA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIW9IEuTEeyME9QYduEkIA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mIW9IUuTEeyME9QYduEkIA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_mIXkM0uTEeyME9QYduEkIA" name="tagtv" type="_WPP4QEpHEeyTTKWT2c77UQ" association="_mIWWEEuTEeyME9QYduEkIA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ozfGoEuTEeyME9QYduEkIA"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6WIaMElzEey40qAMbTWBXw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mfDHRE-jEeyRY6c7t-TqYA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfDHRU-jEeyRY6c7t-TqYA" key="Version" value="0.0.38"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfDHRk-jEeyRY6c7t-TqYA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfDHR0-jEeyRY6c7t-TqYA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfDHSE-jEeyRY6c7t-TqYA" key="Date" value="2021-11-27"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfDHSU-jEeyRY6c7t-TqYA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6WMroElzEey40qAMbTWBXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="DSMLIoTRILA.profile.uml#_ai6z0U-gEeyRY6c7t-TqYA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="DSMLIoTRILA.profile.uml#_uOl2EElyEey40qAMbTWBXw"/>
+    </profileApplication>
+  </uml:Model>
+  <DSMLIoTRILA:usuario xmi:id="_JNlWoEl0Eey40qAMbTWBXw" base_Class="_DC4u8El0Eey40qAMbTWBXw"/>
+  <DSMLIoTRILA:geladeira xmi:id="_C3DUgEpHEeyTTKWT2c77UQ" base_Class="_AjpHcEpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:telefone xmi:id="_H2N9MEpHEeyTTKWT2c77UQ" base_Class="_DulZcEpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:tv xmi:id="_L4_2IEpHEeyTTKWT2c77UQ" base_Class="_JmBt8EpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:edge xmi:id="_Qpz5wEpHEeyTTKWT2c77UQ" base_Class="_NvYwAEpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:tag xmi:id="_YgI80EpHEeyTTKWT2c77UQ" base_Class="_WPP4QEpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:sensor xmi:id="_bDY8sEpHEeyTTKWT2c77UQ" base_Class="_ZNB4AEpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:atuador xmi:id="_fkvoAEpHEeyTTKWT2c77UQ" base_Class="_cvD0UEpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:atuador xmi:id="_igKQQEpHEeyTTKWT2c77UQ" base_Class="_ghnf8EpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:tag xmi:id="_tD8YEEpHEeyTTKWT2c77UQ" base_Class="_TBW_8EpHEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:comunica xmi:id="_WrrdwEyFEey2ZYX3-LkLnA" base_Association="_etbcoEuTEeyME9QYduEkIA"/>
+  <DSMLIoTRILA:comunica xmi:id="_ZTso4EyFEey2ZYX3-LkLnA" base_Association="_mIWWEEuTEeyME9QYduEkIA"/>
+  <DSMLIoTRILA:usa xmi:id="_b2O3EEyFEey2ZYX3-LkLnA" base_Association="_m7aeIEpIEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:usa xmi:id="_dMkX4EyFEey2ZYX3-LkLnA" base_Association="_VtmHQEpIEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:atua xmi:id="_XVdlIEyGEey2ZYX3-LkLnA" base_Association="_XYcNkEpKEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:atua xmi:id="_YYgWgEyGEey2ZYX3-LkLnA" base_Association="_S_JSEEpKEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:possui xmi:id="_Z8_BAEyGEey2ZYX3-LkLnA" base_Association="_KgA_EEpJEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:possui xmi:id="_bBd80EyGEey2ZYX3-LkLnA" base_Association="_WaB6AEpJEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:possui xmi:id="_ceetYEyGEey2ZYX3-LkLnA" base_Association="_Eq3JkEpJEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:usa xmi:id="_fpB90EyGEey2ZYX3-LkLnA" base_Association="_hMnIQEpIEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:le xmi:id="_tcEP4EyGEey2ZYX3-LkLnA" base_Association="_GgbHkEpKEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:usuario xmi:id="_N_5bUE-kEeyRY6c7t-TqYA" base_Class="_cmh0UEpQEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:telefone xmi:id="_OAClQE-kEeyRY6c7t-TqYA" base_Class="_cmh0UEpQEeyTTKWT2c77UQ"/>
+  <DSMLIoTRILA:sensor xmi:id="_OAClQU-kEeyRY6c7t-TqYA" base_Class="_cmh0UEpQEeyTTKWT2c77UQ"/>
+</xmi:XMI>
