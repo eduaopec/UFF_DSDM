@@ -23,4 +23,4 @@ Arquivo Apresentação.pdf
  
 
 Os artefatos devem ser disponibilizados via um projeto no github (incluir todo o projeto sirius e acelleo).
-zip rilaiot.zip
+zip Rilaiot.zip
